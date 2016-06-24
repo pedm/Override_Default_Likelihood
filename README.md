@@ -19,4 +19,4 @@ Unfortunately Dynare does not allow us to specify an alternative objective funct
 
 However, it is possible to define our own override the default dsge_likelihood function. This can be done by creating our own own dsge_likelihood.m in the current working directory of Matlab. This overrides the default dsge_likelihood.m in Dynare.
 
-Here I demonstrate that this works. I think that the next step is to modify dsge_likelihood.m, by adding code at the bottom that penalizes the likelihood based on the variance-covariance matrix of the shocks. 
+Here I demonstrate that this works. I think that the next step is to modify dsge_likelihood.m, by adding code that penalizes the likelihood based on the variance-covariance matrix of the shocks. 
